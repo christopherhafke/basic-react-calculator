@@ -1,0 +1,33 @@
+
+.calculator-display {
+}
+
+
+.calculator-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-row {
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.button {
+  border-width: 5px 5px 5px 5px;
+  padding: 0 0 0 0;
+  align-content: center;
+  background-color: rgb(102, 153, 255);
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 40pt;
+  border-radius: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
